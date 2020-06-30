@@ -59,14 +59,6 @@ Like `mapMergeDefaults` but with the `how.pr` option enabled by default.
 
 
 
-### .wrapObj(key, val)
-
-If `val` is an object, return `val` verbatim;
-otherwise, wrap `val` into a new object that has one property whose name
-is given by `key`, with value `val` (i.e. `{ [key]: val }`).
-
-
-
 ### .dfMerge(base, item)
 
 The default sync merge function. Returns `{ ...base, ...item }`.
